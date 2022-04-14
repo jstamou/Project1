@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/*Σχεδιασμός του Parallax Effect*/
+.parallax-header {
+    background: #000;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)),
+        url(media/allo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-content {
+    padding: 100px 0 150px 0;
+}
+
+/*Effect του hover στο Navigation Bar*/
+#navbarDropdown:hover {
+    color: green;
+    transition: 0.8s;
+}
+
+a.dropdown-item:hover {
+    color: green;
+
+}
+
+#homebtn:hover {
+    color: green;
+    transition: 0.8s;
+}
+
+#infobtn:hover {
+    color: green;
+    transition: 0.8s;
+}
+
+#project1btn:hover {
+    color: green;
+    transition: 0.8s;
+}
+
+#searchbtn:hover {
+
+    transition: 0.8s;
+
+
+}
+
+/*Σχεδιασμός Social Media Buttons*/
+
+ul {
+    margin: 15px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+#ena {
+    display: block;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+.social {
+    margin: 15px 0 0 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.eikonidia {
+    display: block;
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+}
